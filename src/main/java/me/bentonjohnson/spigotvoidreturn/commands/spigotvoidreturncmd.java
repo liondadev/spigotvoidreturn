@@ -51,7 +51,7 @@ public class spigotvoidreturncmd implements CommandExecutor {
         }
 
         if (args[0].equalsIgnoreCase("enable")) {
-            Boolean hasPermission = checkPermission(player, "svoid.admin.setfallback");
+            Boolean hasPermission = checkPermission(player, "svoid.admin.toggle");
             if (!hasPermission) return true;
 
             if (args.length == 1) {
@@ -141,6 +141,7 @@ public class spigotvoidreturncmd implements CommandExecutor {
             if (!hasPermission) return true;
 
             setFallbackLocation(player.getWorld(), player.getLocation());
+            player.sendMessage(this.languageManager.getLang("fallback_set", "Fallback location set."));
             return true;
         } else if (args[0].equalsIgnoreCase("reload")) {
             Boolean hasPermission = checkPermission(player, "svoid.admin.reload");

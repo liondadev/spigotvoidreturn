@@ -3,6 +3,7 @@ messages:
   set_y_level: "&aThe Y return level for {WORLD} has been set to {Y_LEVEL}."
   enabled: "&aEnabled for `{WORLD}`. The default y-level is 0."
   disabled: "&cDisabled for `{WORLD}`."
+  fallback_set: "&aFallback location set."
   help_header: "&eSVR Help Message:"
   help_footer: "&e==========="
   unknown_world: "&cThat world was not found"
