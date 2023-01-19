@@ -1,0 +1,26 @@
+messages:
+  teleport_back: "&cTry not to fall!"
+  set_y_level: "&aThe Y return level for {WORLD} has been set to {Y_LEVEL}."
+  enabled: "&aEnabled for `{WORLD}`. The default y-level is 0."
+  disabled: "&cDisabled for `{WORLD}`."
+  help_header: "&eSVR Help Message:"
+  help_footer: "&e==========="
+  unknown_world: "&cThat world was not found"
+  invalid_number: "&cThat isn't a valid number"
+  no_permission: "&cYou don't have permission to do this."
+  config_reloaded: "&eConfiguration Reloaded"
+
+config:
+  ignore_in_creative: true
+  ignore_in_spectator: true
+  ignore_in_survival: false
+
+worlds_config:
+  world:
+    level: 32
+    fallback:
+      x: 0
+      y: 0
+      z: 0
+      pitch: 0
+      yaw: 0

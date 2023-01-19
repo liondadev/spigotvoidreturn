@@ -1,0 +1,14 @@
+name: SpigotVoidReturn
+version: '${project.version}'
+main: me.bentonjohnson.spigotvoidreturn.SpigotVoidReturn
+api-version: 1.19
+prefix: SpigotVoidReturn
+authors: [ liondadev ]
+description: Retuen players to the last place they were from the Void.
+website: wdbyc.com
+
+commands:
+  spigotvoidreturn:
+    description: Manage SpigotVoidReturn
+    usage: /spigotvoidreturn <help/sety/setfallback/enable/disable>
+    aliases: [svoidreturn, svoid, svreturn]
